@@ -1,0 +1,4 @@
+= infdot_upload
+
+A Redmine plugin to automate release file management.
+

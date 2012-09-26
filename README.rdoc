@@ -1,4 +1,38 @@
 = infdot_upload
 
-A Redmine plugin to automate release file management.
+A Redmine plugin to automate release file management. At the moment only Redmine 2+ is supported.
+
+Installation
+------------
+
+In the Redmine installation root directory:
+
+```
+cd plugins
+git clone git://github.com/rla/redmine_infdot_upload.git
+cd ..
+bundle exec rake redmine:plugins:migrate
+```
+
+Create custom field `Current build` of type boolean for versions. Set it true for the
+given version to make files appear under that version in the Redmine Files section.
+
+Usage
+-----
+
+Example usage with curl:
+
+```bash
+curl \
+	-F "file=@$file" \
+	-F "project=$project" \
+	-F "user=$user" \
+	-F "password=$password" \
+	-k <your redmine installation>/infdot_upload
+```
+
+TODO
+----
+
+* Authentication by API key.
 

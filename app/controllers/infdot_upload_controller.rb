@@ -16,7 +16,7 @@
 #  You should have received a copy of the GNU General Public License
 #  along with infdot-build.  If not, see <http://www.gnu.org/licenses/>.
  
-class UploadController < ActionController::Base
+class InfdotUploadController < ActionController::Base
   
   # Response has empty/nil error
   # message in the case of no error.

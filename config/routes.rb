@@ -17,6 +17,5 @@
 #  along with infdot-build.  If not, see <http://www.gnu.org/licenses/>.
 
 RedmineApp::Application.routes.draw do
-  post '/upload/upload', :controller => 'upload', :action => 'upload'
+  post '/infdot_upload', :controller => 'infdot_upload', :action => 'upload'
 end
-

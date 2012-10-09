@@ -25,7 +25,11 @@ Example usage with curl:
     -F "password=$password" \
     -k <your redmine installation>/infdot_upload
 
+== Alternatives
+
+* {redmine-file-uploader}[https://github.com/gertvdijk/redmine-file-uploader]
+* Some Redmine WebDAV plugin
+
 == TODO
 
 * Authentication by API key.
-

@@ -82,6 +82,9 @@ class InfdotUploadController < ActionController::Base
     end
     
     if @errors.empty?
+      if Setting.notified_events.include?('file_added')
+        Mailer.attachments_added([a]).deliver
+      end
       render :json => Response.new(nil)
     else
       render :json => Response.new(@errors.join(" "))

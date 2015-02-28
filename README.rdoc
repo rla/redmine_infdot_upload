@@ -33,3 +33,7 @@ Example usage with curl:
 == TODO
 
 * Authentication by API key.
+
+== License
+
+The GPL version 3

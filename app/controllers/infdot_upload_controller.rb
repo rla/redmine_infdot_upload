@@ -1,4 +1,4 @@
-#  Copyright (C) 2010-2012 Raivo Laanemets <raivo@infdot.com>
+#  Copyright (C) 2010-2015 Raivo Laanemets, 2014 Jarosław Jeleniewicz
 #
 #  This file is part of infdot-build.
 #  This file is part of infdot-upload.
